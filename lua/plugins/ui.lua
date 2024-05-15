@@ -137,6 +137,7 @@ return {
 		"folke/zen-mode.nvim",
 		cmd = "ZenMode",
 		plugins = {
+			twilight = { enabled = true },
 			gitsigns = {
 				enabled = true,
 			},
